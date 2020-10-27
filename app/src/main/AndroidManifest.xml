@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edu.dudu">
+
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/lp_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<!--        服务在清单中声明一下-->
+        <service
+            android:name=".service.MyIntentService"
+            android:exported="false"></service>
+
+        <activity
+            android:name=".zhuce"
+            android:label="@string/zhuce"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".about"
+            android:label="关于"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".shezhi" />
+        <activity android:name=".core" />
+        <activity
+            android:name=".Renju"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".Login" />
+        <activity android:name=".Admin" />
+        <activity android:name=".splashAnimation.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".launcher"/>
+
+
+    </application>
+
+</manifest>

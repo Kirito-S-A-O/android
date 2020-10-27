@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">dudu</string>
+    <string name="option1">开始游戏</string>
+    <string name="option2">设置</string>
+    <string name="option3">成绩</string>
+    <string name="option4">关于</string>
+    <string name="login">登陆</string>
+    <string name="sign">注册</string>
+    <string name="rule">双方分别使用黑白两色的棋子，下载棋盘直线与横线的交叉点上，先形成五子连线者获胜。</string>
+    <string name="about">制作名\n徐志豪</string>
+    <string name="User_name">用户名:</string>
+    <string name="User_Password">密码:</string>
+    <string name="zhuce">注册</string>
+    <string name="version">版本号：1.0.1</string>
+    <string name="win">排行榜</string>
+
+</resources>
